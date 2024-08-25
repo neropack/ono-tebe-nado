@@ -18,7 +18,6 @@
 
 .header__links-list-item {
     margin-left: 13px;
-    letter-spacing: 1%;
     list-style-type: circle;
 }
 
@@ -114,7 +113,6 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 60%;
     margin-right: 60px;
 }
 
