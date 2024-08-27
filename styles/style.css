@@ -224,3 +224,49 @@
     font-size: 20px;
     border-bottom: 1px solid black;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 182px 24px 0;
+    width: 1052px;
+}
+
+.about__logo-column {
+    display: flex;
+    width: 334px;
+    justify-content: center;
+}
+
+.about__logo {
+    display: inline-flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.about__logo-image {
+    width: 148px;
+}
+
+.about__text-column {
+    margin-left: 8px;
+}
+
+.about__title {
+    margin: 100px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 24px;
+    word-spacing: 1px;
+}
+
+.about__text:first-of-type {
+    margin-bottom: 24px;
+}
