@@ -57,6 +57,7 @@
 }
 
 .cover {
+    margin-top: 1px;
     height: 757px;
     position: relative;
 }
