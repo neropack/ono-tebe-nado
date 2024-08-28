@@ -226,7 +226,7 @@
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 182px 24px 0;
+    margin: 182px 24px;
     width: 1052px;
 }
 
@@ -267,4 +267,33 @@
 
 .about__text:first-of-type {
     margin-bottom: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 50px;
+    font-size: 18px;
+}
+
+.footer__menu-list {
+    margin-right: 22px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer__menu-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.footer__social-icon {
+    width: 48px;
 }
