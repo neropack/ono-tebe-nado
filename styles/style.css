@@ -95,13 +95,13 @@
 }
 
 .no-letter-spacing {
-    margin-left: 30px;
     letter-spacing: 0px;
 }
 
 .aligned-text_center {
     align-self: center;
     margin-top: 9px;
+    margin-right: 60px;
     letter-spacing: 30px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .letter-spacing-extended {
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .letter-spacing-extended:nth-of-type(1) {
