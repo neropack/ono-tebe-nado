@@ -21,12 +21,9 @@
     list-style-type: circle;
 }
 
-.header__link-active {
-    text-decoration: none;
-}
-
 .header__link {
-    border-bottom: 1px solid black;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .header__links-list-item:nth-of-type(2),
@@ -54,6 +51,7 @@
 
 .header__address-link {
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .cover {
