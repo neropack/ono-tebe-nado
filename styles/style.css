@@ -40,7 +40,7 @@
     margin-right: 151px;
 }
 
-.header__address {
+.address {
     display: flex;
     flex-direction: column;
     width: 240px;
@@ -49,7 +49,7 @@
     line-height: 24px;
 }
 
-.header__address-link {
+.address-link {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -88,6 +88,7 @@
     flex-direction: column;
     font-size: 100px;
     color: white;
+    text-transform: uppercase;
 }
 
 .aligned-text {
@@ -132,6 +133,10 @@
     font-size: 22px;
     color: white;
     text-transform: uppercase;
+}
+
+.cover__description-text {
+    word-spacing: 19px;
 }
 
 .whitespace {
@@ -208,6 +213,8 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
 }
 
 .card__text {
