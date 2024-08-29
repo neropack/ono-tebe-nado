@@ -56,7 +56,6 @@
 }
 
 .cover {
-    /* height: 757px; */
     position: relative;
     background-image: url(../images/cover.jpg);
     background-position: center center;
@@ -77,13 +76,10 @@
 }
 
 .cover__title {
-    /* position: absolute;
-    top: 165px;
-    left: 0; */
     position: relative;
     width: 1000px;
     margin: 0 50px;
-    padding: 165px 0 154px;
+    padding: 165px 0 130px;
     display: flex;
     flex-direction: column;
     font-size: 100px;
@@ -123,10 +119,8 @@
 
 .cover__description {
     position: relative;
-    width: 1000px;
-    height: 50px;
     margin: 0 50px;
-    padding-bottom: 76px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,19 +133,6 @@
     padding-left: 26px;
     word-spacing: 19px;
 }
-
-/* .whitespace {
-    display: inline-block;
-    width: 20px;
-}
-
-.whitespace-wider {
-    width: 22px;
-}
-
-.whitespace-tight {
-    width: 19px;
-} */
 
 .bet-button {
     width: 256px;
