@@ -62,11 +62,6 @@
     background-size: cover;
 }
 
-/* .cover__background {
-    height: 100%;
-    object-fit: cover;
-} */
-
 .overlay {
     position: absolute;
     inset: 0 0;
@@ -196,15 +191,6 @@
     background-position: center center;
     background-size: cover;
 }
-
-/* .card_type_picture {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-} */
 
 .card__title {
     position: relative;
