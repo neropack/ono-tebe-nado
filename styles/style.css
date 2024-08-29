@@ -215,7 +215,7 @@
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 182px 24px;
+    margin: 182px 24px 157px;
     width: 1052px;
 }
 
@@ -252,11 +252,12 @@
     font-size: 20px;
     line-height: 24px;
     word-spacing: 1px;
-}
-
-.about__text:first-of-type {
     margin-bottom: 24px;
 }
+
+/* .about__text:first-of-type {
+    
+} */
 
 .footer {
     display: flex;
